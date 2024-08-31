@@ -308,11 +308,11 @@ h5.subtitle {
 }
 
 .bg-feature {
-    background-color: #635CDB;
+    background-color: #635CDB; 
 }
 
 .bg-primary {
-    background-color: #0db8ca;
+    background-color: #0db8ca; 
 }
 
 .bg-gray {
@@ -354,7 +354,7 @@ h5.subtitle {
 }
 
 .gr-overlay {
-    background: linear-gradient(135deg, #2f1ce0 0%, #53a0fd 30%, #51eca5 100%);
+    /* background: linear-gradient(135deg, #2f1ce0 0%, #53a0fd 30%, #51eca5 100%); */
     opacity: .87;
 }
 
@@ -391,7 +391,9 @@ h5.subtitle {
     transition: all .5s ease 0s;
     color: #000 !important;
 }
-
+.navbar-brand{
+    width: 10em;
+}
 .navbar-expand-lg.trans-navigation .navbar-nav .nav-link,
 .navbar-expand-lg.site-navigation .navbar-nav .nav-link {
     padding: 0px 24px;
