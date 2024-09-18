@@ -642,7 +642,7 @@ h5.subtitle {
 
 .contact-icon a {
     font-size: 1.2rem;  /* Size of text */
-    color: #007bff;     /* Color of "Contact Us" text */
+    color: #6610f2;     /* Color of "Contact Us" text */
     text-decoration: none;
     margin-top: 10px;   /* Add some space between the icon and the text */
 }
@@ -718,6 +718,111 @@ h5.subtitle {
     height: auto;
     z-index: -1;
     transform: translate(-50%, -50%);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .projects-section {
+    padding: 50px 0;
+  }
+  
+  .section-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .section-title .highlight {
+    color: #6610f2; /* Bootstrap primary color */
+  }
+  
+  .section-description {
+    font-size: 1.1rem;
+    color: #6c757d;
+    margin-bottom: 40px;
+  }
+  
+  /* .project-cards {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .project-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+  
+  .project-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .project-image img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .project-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #333;
+    padding: 15px;
+    margin: 0;
+  }
+
+  .project-title .logo-img {
+    width: 20px; 
+    height: auto;
+    margin-right: 5px;
+    vertical-align: middle;
+} */
+ 
+.project-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+}
+
+.project-image img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.project-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #333;
+    padding: 15px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.project-title .logo-img {
+    width: 20px; /* Adjust the width as needed */
+    height: auto;
+}
+
+.project-title .title-text {
+    flex-grow: 1;
+    text-align: center; /* Center the text */
 }
 
 .banner-2 {
