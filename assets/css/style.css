@@ -597,11 +597,127 @@ h5.subtitle {
 }
 
 
-.banner-1 {
+/* .banner-1 {
     background: url("../img/banner/bg-2.jpg");
     -webkit-background-size: cover;
     background-size: cover;
     position: relative;
+} */
+/* Custom styles for Contact Us button */
+/* .contact-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contact-icon i {
+    font-size: 3rem;
+    color: #f04c41;
+}
+
+.contact-icon a {
+    font-size: 1.2rem;  
+    color: #007bff;    
+    text-decoration: none;
+}
+
+.contact-icon a:hover {
+    text-decoration: underline; 
+} */
+
+.contact-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contact-icon i {
+    font-size: 3rem; /* Size of envelope icon */
+    color: #f04c41;  /* Color of envelope icon */
+}
+
+.contact-icon a {
+    font-size: 1.2rem;  /* Size of text */
+    color: #007bff;     /* Color of "Contact Us" text */
+    text-decoration: none;
+    margin-top: 10px;   /* Add some space between the icon and the text */
+}
+
+.contact-icon a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+.contact-options {
+    margin-top: 20px;
+}
+
+.contact-option {
+    text-decoration: none;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+
+.contact-option i {
+    font-size: 3rem; /* Adjust icon size */
+    color: #6c757d;
+    margin-bottom: 10px;
+}
+
+.contact-option span {
+    margin-top: 5px;
+    font-size: 1rem; /* Adjust text size */
+}
+
+/* Hover effects */
+.contact-option:hover i {
+    color: #28a745; /* Change color on hover */
+}
+
+.contact-option:hover span {
+    color: #28a745; /* Change text color on hover */
+}
+
+.contact-option:nth-child(2):hover span {
+    color: red; /* Change text color on hover */
+}
+
+/* WhatsApp */
+.contact-option:first-child:hover i {
+    color: #25D366; /* WhatsApp green */
+}
+
+/* Gmail */
+.contact-option:nth-child(2):hover i {
+    color: #d14836; /* Gmail red */
+}
+
+/* Fiverr */
+.contact-option:last-child:hover i {
+    color: #1DBF73; /* Fiverr green */
+}
+
+.banner-area.banner-1 {
+    position: relative;
+    overflow: hidden;
+}
+
+#background-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    transform: translate(-50%, -50%);
 }
 
 .banner-2 {
